@@ -10,7 +10,6 @@
 
 * **Laura Gómez Palencia (Operadora Senior de Central)**
     * **Rol:** Operadora Senior en la Central de Operaciones.
-    * **Rol:** Operadora Senior en la Central de Operaciones.
     * **Descripción y Necesidades:** Se encarga de atender las llamadas, identificando automáticamente a los residentes por su número de teléfono para registrar incidencias. Necesita que el sistema le muestre qué vigilantes están de servicio para asignar al más cercano, y debe poder hacer seguimiento del estado de la alerta y los tiempos de respuesta. Además, gestiona las altas y bajas de los residentes en la base de datos y debe recibir de forma automática los avisos de las alarmas conectadas.
 
 * **Sergio Palomo Jiménez (Vigilante de Seguridad)**
