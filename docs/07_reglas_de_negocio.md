@@ -19,3 +19,8 @@ El sistema bloqueará la posibilidad de asignar un vehículo a un turno de patru
 
 Optimizar la apertura de incidencias y garantizar que la información de contacto es veraz y pertenece a la base de datos de clientes.
 El sistema solo realizará la identificación automática del residente (mostrando su nombre, dirección y urbanización) si el número de teléfono de la llamada entrante coincide con alguno de los números registrados y vinculados a una vivienda en el RI-03 (Residentes). En caso contrario, el sistema obligará a la apertura de una "Ficha de Informante Externo" para el registro manual de datos.
+
+## RN - 05: Control de respuestas a alertas
+
+Asegurar que los avisos se atiendan rápido y que ninguna emergencia se quede sin respuesta por un descuido.
+El sistema controlará cuánto tarda un vigilante en aceptar un aviso en su móvil. Si pasan más de 2 minutos sin que el vigilante confirme que lo ha recibido, el sistema enviará una alerta automática a la central para que el operador pueda pasarle el trabajo a otro compañero disponible de inmediato.
