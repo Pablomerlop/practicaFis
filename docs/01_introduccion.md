@@ -1,8 +1,6 @@
 # 1. Introducción y Contexto del Proyecto
 
-El presente documento constituye la Especificación de Requisitos del Software (ERS) para el nuevo sistema de **GesSec S.L.**, una empresa de seguridad privada con sede en Valladolid que ofrece servicios de vigilancia y respuesta a incidentes a comunidades residenciales cerradas (urbanizaciones privadas)
-
-**GesSec S.L.** es una empresa de seguridad privada con sede en Valladolid que ofrece servicios de vigilancia y respuesta a incidentes a comunidades residenciales cerradas (urbanizaciones privadas).
+El presente documento constituye la Especificación de Requisitos del Software (ERS) para el nuevo sistema de **GesSec S.L.**, una empresa de seguridad privada con sede en Valladolid que ofrece servicios de vigilancia y respuesta a incidentes a comunidades residenciales cerradas (urbanizaciones privadas).
 
 ### La Situación Actual
 La empresa lleva más de cinco años operando con hojas de cálculo, cuadernos de papel y llamadas de teléfono. Sin embargo, este modelo ha llegado a su límite, ya que crecer con la forma de trabajo actual se ve imposible. Los clientes exigen cada vez más informes, tiempos de respuesta garantizados y transparencia. Además, si se incumplen los tiempos de respuesta comprometidos ante incidencias, hay penalizaciones económicas.
