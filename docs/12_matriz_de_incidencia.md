@@ -22,3 +22,14 @@
 |RN-03|Planificar patrullas semanales, Asignar vigilante de patrulla, Gestionar información de vehículos y vigilantes|
 |RN-04|dentificar residente, Crear incidencia, Registrar nuevo teléfono|
 |RN-05|Confirmar recepción de alerta, Hacer seguimiento de incidencia|
+|||
+|RNF-01||
+|RNF-02||
+|RNF-03||
+|RNF-04||
+|RNF-05||
+|RNF-06||
+|RNF-07||
+|RNF-08||
+|RNF-09||
+|RNF-10||
