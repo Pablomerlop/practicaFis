@@ -1,4 +1,8 @@
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
+|Casos de uso / Requisitos|CU-01: Identificar residente|CU-02: Crear incidencia|
 |--------------|--------------|--------------|
-| Celda 1      | Celda 2      | Celda 3      |
-| Celda 4      | Celda 5      | Celda 6      |
+|RF-03: Identificación automática|X|X|
+|RF-04: Gestión y apertura de incidencias||X|
+|RF-05: Registro automático de alarmas||X|
+|RF-08: Alerta por falta de respuesta||X|
+||||
+|RI-03: Residentes|X|X|
