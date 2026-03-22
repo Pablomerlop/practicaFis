@@ -1,0 +1,23 @@
+# Archivos temporales de SO (Windows/Mac)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Archivos temporales de editores de texto (VS Code, Notepad++, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Archivos de copia de seguridad de Astah
+*.asta.bak
+*.asta~
