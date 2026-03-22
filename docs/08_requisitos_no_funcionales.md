@@ -1,20 +1,20 @@
-# 8. Requisitos No Funcionales (Modelo FURPS+ y Sommerville)
+# 8. Requisitos No Funcionales (Métricas Verificables)
 
-A continuación se detallan los requisitos que definen cómo debe comportarse el sistema (su calidad y restricciones), organizados según la clasificación FURPS+ y las categorías de Sommerville, utilizando un lenguaje claro:
+#### RNF-01: Facilidad de uso (Usabilidad)
+* **Tiempo de entrenamiento:** El tiempo máximo de formación necesario para que un vigilante opere la aplicación móvil de forma autónoma debe ser inferior a 1 hora.
+* **Tasa de errores:** La interfaz debe estar diseñada de manera que el número máximo de errores operativos cometidos por un usuario sea inferior a 2 errores por cada 100 interacciones.
 
-#### RNF-01: Usabilidad (Usability)
-* **Interfaz móvil intuitiva:** La aplicación para los vigilantes debe ser muy fácil de usar, con una pantalla clara, botones grandes y sin menús complicados, pensando en los usuarios que no tienen facilidad con la tecnología.
-* **Plataforma móvil:** La app de los vigilantes debe estar diseñada preferiblemente para teléfonos android, ya que son los dispositivos de empresa actuales.
-* **Acceso web en central:** El sistema para los operadores de la central debe ser una página web, para evitar tener que instalar programas especiales en los ordenadores de la oficina.
+#### RNF-02: Velocidad y Rendimiento (Performance)
+* **Tiempo de respuesta:** El tiempo de respuesta máximo del sistema central ante una consulta de un operador (ej. buscar a un residente) debe ser de 2 segundos.
+* **Procesamiento de transacciones:** El servidor debe ser capaz de procesar un mínimo de 50 transacciones por segundo sin que el rendimiento se degrade.
 
-#### RNF-02: Fiabilidad (Reliability)
-* **Tolerancia a baja cobertura:** La aplicación móvil debe ser capaz de funcionar correctamente, o al menos mantener sus funciones básicas, en zonas de las urbanizaciones donde la señal de internet sea débil o inexistente.
+#### RNF-03: Fiabilidad (Reliability)
+* **Disponibilidad:** La probabilidad de que el sistema central no esté disponible debe ser inferior al 0,1% mensual.
+* **Tiempo medio entre fallos (MTBF):** El sistema debe garantizar un tiempo medio de operación ininterrumpida sin fallos críticos superior a 720 horas.
 
-#### RNF-03: Rendimiento (Performance)
-* **Alertas de tiempo crítico:** El sistema debe ser capaz de controlar el tiempo en tiempo real y lanzar un aviso automático a la central si un vigilante tarda más de dos minutos en responder a una alerta.
-
-#### RNF-04: Soporte y Mantenibilidad (Supportability)
-* **Mantenimiento centralizado:** Gracias al uso de una aplicación web en la central, las actualizaciones del sistema se aplicarán directamente sin necesidad de intervenir equipo por equipo.
+#### RNF-04: Robustez (Robustness)
+* **Tiempo de recuperación:** En caso de producirse un fallo grave o caída del servidor, el tiempo de arranque y restauración total del sistema no debe superar los 15 minutos.
+* **Integridad de los datos:** La probabilidad de corrupción o pérdida de datos tras un fallo del sistema debe ser inferior al 0,01%.
 
 #### RNF-05: Requisitos "+" (Seguridad, Interoperabilidad y Legales - Sommerville)
 * **Seguridad y Privacidad (Control de acceso):** El sistema debe garantizar que cada empleado vea solo lo necesario para su trabajo. Se deben crear roles estrictos (Dirección, Jefe de Seguridad, Operador, Vigilante y RRHH) para proteger la información.
