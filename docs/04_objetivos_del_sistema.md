@@ -1,4 +1,4 @@
-## 2. Objetivos del sistema
+## 4. Objetivos del sistema
   
 * **Optimizar la atención de incidencias:** Permitir a la central identificar fácilmente a los residentes cuando llaman, registrar la entrada de alarmas automáticas y asignar de forma rápida la alerta al vigilante más cercano.
 * **Optimizar la atención y gestión de incidencias:** Permitir a la central identificar
