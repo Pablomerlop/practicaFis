@@ -1,4 +1,4 @@
-# Requisitos de información
+# 6. Requisitos de información
 
 ## RI - 01: Empleados
 
