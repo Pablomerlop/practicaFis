@@ -19,7 +19,7 @@ A continuación, se definen los términos y conceptos propios del dominio de neg
 * **Incidencia:** Registro formal en el sistema de cualquier anomalía, emergencia, aviso de alarma o solicitud de asistencia que requiere la atención de la central y/o el desplazamiento de una patrulla para su resolución.
 * **Informante:** Persona que contacta telefónicamente con la central de operaciones para notificar un problema o dar un aviso. Se clasifica en *residente* (si figura en el padrón) o *externo* (visitas, repartidores, etc.).
 * **Kilometraje de Turno:** Registro de la distancia recorrida por un vehículo entre el inicio y el fin de una patrulla. Es el dato clave para el control de uso y mantenimiento de la flota operativa
-* **Operativo (Estado de Vehículo):** Condición necesaria que verifica que un vehículo en la base de datos se encuentra en condiciones óptimas para que el sistema permita su uso en patrulla.
+* **Operativo (Estado de Vehículo):** Condición necesaria que verifica que un vehículo en la base de datos se encuentra en condiciones óptimas y seguras para que el sistema permita su uso en patrulla.
 * **Padrón de Residentes:** Base de datos que contiene la información de identificación, números de teléfono de contacto y direcciones exactas de las personas que habitan en las urbanizaciones gestionadas.
 * **Parte de Resolución:** Formulario sencillo que debe cumplimentar el vigilante de seguridad a través de su aplicación móvil tras intervenir en una incidencia, detallando la situación encontrada y las medidas adoptadas.
 * **Patrulla:** Unidad operativa de campo consistente en un vigilante de seguridad, equipado con la aplicación móvil del sistema, asignado a un vehículo y a una urbanización para su vigilancia.
