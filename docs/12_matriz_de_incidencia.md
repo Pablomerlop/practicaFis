@@ -23,13 +23,13 @@
 |RN-04|dentificar residente, Crear incidencia, Registrar nuevo teléfono|
 |RN-05|Confirmar recepción de alerta, Hacer seguimiento de incidencia|
 |||
-|RNF-01||
-|RNF-02||
-|RNF-03||
-|RNF-04||
+|RNF-01|Crear incidencia, Hacer seguimiento de incidencia, Confirmar recepción de alerta, Reportar tiempos de desplazamiento, Autoasignarse incidencia|
+|RNF-02|Crear incidencia, Rellenar parte de resolución, Confirmar recepción de alerta, Solicitar seguimiento|
+|RNF-03|Identificar residente, Consultar historial de incidencias, Consultar informes de rendimiento, Consultar estadísticas del servicio|
+|RNF-04|Crear incidencia ?|
 |RNF-05||
 |RNF-06||
 |RNF-07||
-|RNF-08||
-|RNF-09||
-|RNF-10||
+|RNF-08|Gestionar datos de empleados, Identificar residente|
+|RNF-09|Calcular ruta|
+|RNF-10|Identificar residente, Gestionar altas/bajas residentes, Gestionar datos de empleados, Registrar vacaciones y ausencias|
