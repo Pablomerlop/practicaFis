@@ -1,4 +1,4 @@
-# Archivos temporales de SO (Windows/Mac)
+# Archivos temporales de SO (Windows/Mac/Linux)
 .DS_Store
 .DS_Store?
 ._*
@@ -8,6 +8,9 @@ ehthumbs.db
 ehthumbs_vista.db
 [Tt]humbs.db
 [Dd]esktop.ini
+.Trash-*
+.nfs*
+.fuse_hidden*
 
 # Archivos temporales de editores de texto (VS Code, Notepad++, etc.)
 .vscode/
