@@ -1,4 +1,4 @@
-# Reglas de negocio
+# 7. Reglas de negocio
 
 ## RN - 01: Habilitación personal
 
