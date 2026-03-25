@@ -24,3 +24,7 @@ El sistema solo realizará la identificación automática del residente (mostran
 
 Asegurar que los avisos se atiendan rápido y que ninguna emergencia se quede sin respuesta por un descuido.
 El sistema controlará cuánto tarda un vigilante en aceptar un aviso en su móvil. Si pasan más de 2 minutos sin que el vigilante confirme que lo ha recibido, el sistema enviará una alerta automática a la central para que el operador pueda pasarle el trabajo a otro compañero disponible de inmediato.
+
+## RN - 06: Renovación obligatoria de habilitación tras inactividad
+
+Por normativa de seguridad privada, un vigilante no puede operar si su carnet caducó mientras estaba convaleciente. El sistema hará cumplir esta regla comprobando la fecha de caducidad de la habilitación profesional en el momento de registrar el alta; si está caducada, el sistema impedirá pasar al empleado al estado "Activo" y exigirá renovar la licencia primero.
