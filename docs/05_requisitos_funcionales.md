@@ -40,3 +40,15 @@ El sistema debe monitorizar las fechas de validez de la habilitación profesiona
 ## RF - 10: Informe de resolución de una incidencia
 
 El sistema debe permitir al vigilante asignado registrar el informe de resolución de una incidencia, incluyendo el tipo definitivo del incidente, descripción de lo que encontró, solucion adoptada y hora de resolución.
+
+## RF - 11: Validación de estado previo del empleado
+
+El sistema debe validar que el estado actual del empleado seleccionado sea "De baja" antes de permitir al usuario iniciar el proceso de registro de alta médica.
+
+## RF - 12: Notficación automática de reincorporación
+
+El sistema debe enviar una notificación automática al Jefe de Seguridad en el mismo momento en que el empleado pasa a estar "Activo", para que pueda incluirlo inmediatamente en la planificación de los siguientes turnos de patrulla.
+
+## RF - 13: Registro documental de alta médica
+
+El sistema debe permitir al Responsable de RRHH adjuntar y guardar un archivo (PDF o imagen) con el parte de alta médica oficial dentro del expediente del trabajador.

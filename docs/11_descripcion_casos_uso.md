@@ -47,3 +47,26 @@ El sistema ha creado un nuevo registro de incidencia con todos sus datos detalla
 * **1a, 3a-** Si el actor cancela el registro manual, el caso de uso finaliza (quedando sin efecto).
 * **1b- (Disparador por Sistema de Alarmas):** Si el inicio del caso de uso es disparado automáticamente por el Sistema de Alarmas, el sistema extrae automáticamente el identificador, el tipo y la ubicación sin necesidad de realizar el paso 2 ni el paso 3, registra directamente la incidencia (paso 4) y el caso de uso continúa por el paso 5.
 * **4a-** Si el sistema detecta que faltan campos obligatorios por rellenar, emite un mensaje informativo de error en pantalla solicitando los datos y el caso de uso continúa por el paso 3.
+
+### CU-03: Registrar alta médica (Pasar empleado a estado activo)
+
+**Descripción y disparador:** El sistema debe comportarse tal como se describe en este caso de uso cuando el Responsable de RRHH recibe el parte de alta médica de un empleado (vigilante) y necesita actualizar su estado en la base de datos para que vuelva a estar disponible para la asignación de turnos.
+**Precondición:** El actor Responsable de RRHH está autenticado en el sistema.
+
+**Secuencia normal:**
+1. El Responsable de RRHH busca y selecciona en el sistema la ficha del empleado correspondiente.
+2. El actor inicia el proceso de registro de alta médica (cambio de estado).
+3. El actor introduce la fecha efectiva de reincorporación y adjunta el archivo digital con el parte médico oficial.
+4. El sistema comprueba que el estado actual del empleado es "De baja" y valida que la fecha de caducidad de su habilitación profesional es posterior a la fecha actual (está en vigor).
+5. El sistema actualiza el estado del empleado a "Activo" y archiva el justificante médico de forma segura en su historial.
+6. El sistema envía una notificación automática el Jefe de Seguridad informando de la nueva disponibilidad del vigilante.
+7. El caso de uso finaliza con éxito.
+
+**Poscondición:**
+El empleado vuelve a constar como "Activo" (estando disponible para la planificación de patrullas), su historial de estados se ha actualizado y el alta ha quedado documentada.
+
+**Alternativas y excepciones:**
+1a, 3a- Si el actor cancela el proceso de registro, el caso de uso finaliza (quedando sin efecto).
+4a- Si el sistema comprueba que el estado actual del empleado no es "De baja", emite un mensaje informativo de error indicando que la accion no es válida y el caso de uso finaliza (quedando sin efecto).
+4b- Si el sistema comprueba que la habilitación profesional del empleado está caducada, emite un mensaje de error impidiendo el paso a estado "Activo" y solicitando la renovación previa de la licencia, y el caso de uso finaliza (quedando sin efecto)
+4c- Si el sistema detecta que el actor no ha adjuntado el documento médico obligatorio, emite un mensaje informativo en pantalla solicitando el archivo y el caso de uso continúa por el paso 3.

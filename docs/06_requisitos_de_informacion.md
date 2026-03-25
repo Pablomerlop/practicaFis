@@ -40,6 +40,21 @@ El sistema debe almacenar la siguiente información de las comunidades de propie
 2- Datos del contrato: número de patrullas semanales y tiempos de respuesta comprometidos ante incidencias.  
 3- Alarmas de zonas comunes: listado de las alarmas instaladas en el perímetro o zonas compartidas (vallas, club social, entrada), incluyendo su identificador, el lugar donde están y sus coordenadas GPS.
 
+## RI - 06: Datos de Alta Médica
+
+El sistema deberá almacenar la información vinculada al Alta Médica, incluyendo:
+
+1- Fecha efectiva de reincorporación al puesto.
+2- Identificador del usuario de RRHH que regisra el alta.
+3- El archivo digital del jusrificante médico.
+
+## RI - 07: Historial de Estados del Empleado
+
+El sistema deberá mantener un Historial de Estados, almacenando para cada cambio: 
+1- El estado anterior (Ej. De baja).
+2- El nuevo estado (Ej. Activo).
+3- La fecha y la hora exacta en la que se produjo la modificación.
+
 
 
 
