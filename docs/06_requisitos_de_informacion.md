@@ -16,9 +16,9 @@ El sistema debe almacenar la siguiente información de cada vehículo:
 
 1. **Identificación**: matrícula, marca, modelo y año de compra.
 
-2. **Uso y kilometraje**: kilómetros totales recorridos y el registro de kilómetros al inicio y al finalizar cada turno (apuntados por el vigilante).
+2. **Uso y kilometraje**: kilómetros totales recorridos.
 
-3. **Disponibilidad**: estado actual del vehículo para evitar conflictos en la asignación de patrullas.
+3. **Disponibilidad**: estado actual del vehículo (operativo, averiado o en taller) para evitar conflictos en la asignación de patrullas.
 
 ## RI - 03: Residentes
 
@@ -34,7 +34,7 @@ El sistema debe almacenar la siguiente información de cada residente:
 
 El sistema debe almacenar la siguiente información de cada incidencia:
 
-1. **Datos de apertura**: identificación del informante (residente identificado o datos de quien llama si es externo), urbanización y dirección donde ocurre el incidente, tipo de incidencia (alarma de intrusión activada, alarma de humo, accidente, problema de causa natural, solicitud de asistencia general u otro), descripción libre del problema contado por el residente y la fecha y hora.
+1. **Datos de apertura**: identificación del informante (residente identificado o datos de quien llama si es externo), urbanización y dirección donde ocurre el incidente, tipo de incidencia (alarma de intrusión activada, alarma de humo, accidente, problema de causa natural, solicitud de asistencia general u otro), descripción libre del problema contado por el residente, la fecha y hora y el estado de la incidencia (abierta, asignada o resuelta).
 
 2. **Gestión y respuesta**: vigilante asignado (su identificación), registro de la confirmación de recepción y horas de salida y llegada al lugar.
 
@@ -56,7 +56,7 @@ El sistema deberá almacenar la información vinculada al Alta Médica, incluyen
 
 1. **Fecha** efectiva de reincorporación al puesto.
 
-2. **Identificador** del usuario de RRHH que regisra el alta.
+2. **Identificador** del usuario de RRHH que registra el alta.
 
 3. El **archivo** digital del justificante médico.
 
@@ -77,6 +77,8 @@ El sistema debe almacenar la organización semanal del servicio operativo, inclu
 1. **Turnos**: registro de las cuatro franjas horarias fijas (0:00-6:00, 6:00-12:00, 12:00-18:00, 18:00-0:00) para cada uno de los 365 días del año.
 
 2. **Patrullas**: asignación concreta de una patrulla a un turno y a una urbanización, la cual estará compuesta obligatoriamente por un vigilante responsable y un vehículo específico.
+
+3. **Kilometraje**: el registro de kilómetros al inicio y al finalizar cada turno (apuntados por el vigilante).
 
 ## RI - 09: Alarmas de Viviendas
 
