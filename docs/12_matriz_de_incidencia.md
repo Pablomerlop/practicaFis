@@ -24,6 +24,12 @@
 |RI-05|Planificar patrullas semanales, Crear incidencia, Calcular ruta|
 |RI-06|Registrar alta médica de un empleado|
 |RI-07|Registrar alta médica de un empleado|
+|RI-08|Planificar patrullas semanales|
+|RI-09|Crear incidencia|
+|RI-10|Identificar residente, Crear incidencia|
+|RI-11|Registrar vacaciones y ausencias, Planificar patrullas semanales|
+|RI-12|Configurar accesos del sistema|
+
 |||
 |RN-01|Asignar vigilante de patrulla, Gestionar datos de empleados, Configurar accesos del sistema|
 |RN-02|Gestionar información de vehículos y vigilantes|
